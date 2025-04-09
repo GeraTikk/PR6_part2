@@ -1,0 +1,55 @@
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\GermanKursach.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\App.g.cs
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\GermanKursach_MarkupCompile.cache
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\GermanKursach.g.resources
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\GermanKursach.Properties.Resources.resources
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\GermanKursach.csproj.GenerateResource.cache
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\GermanKursach.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\bin\Debug\GermanKursach.exe.config
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\bin\Debug\GermanKursach.exe
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\bin\Debug\GermanKursach.pdb
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\GermanKursach.exe
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\GermanKursach.pdb
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\Registration.g.cs
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\GermanKursach_MarkupCompile.lref
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\Registration.baml
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\Profile.g.cs
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\Profile.baml
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\CreateOrder.g.cs
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\CreateOrder.baml
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\ConfimOrder.g.cs
+C:\Users\User\Desktop\kursach\GermanKursach\GermanKursach\obj\Debug\ConfimOrder.baml
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\bin\Debug\GermanKursach.exe.config
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\bin\Debug\GermanKursach.exe
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\bin\Debug\GermanKursach.pdb
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\bin\Debug\EntityFramework.dll
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\bin\Debug\EntityFramework.xml
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\GermanKursach.csproj.AssemblyReference.cache
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\MainWindow.baml
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\ConfimOrder.g.cs
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\CreateOrder.g.cs
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\MainWindow.g.cs
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\Profile.g.cs
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\ProfileEmployee.g.cs
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\Registration.g.cs
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\App.g.cs
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\GermanKursach_Content.g.cs
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\GermanKursach_MarkupCompile.cache
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\GermanKursach_MarkupCompile.lref
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\ConfimOrder.baml
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\CreateOrder.baml
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\Profile.baml
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\ProfileEmployee.baml
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\Registration.baml
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\GermanKursach.g.resources
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\GermanKursach.Properties.Resources.resources
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\GermanKursach.csproj.GenerateResource.cache
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\GermanKursach.csproj.CoreCompileInputs.cache
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\GermanKursach.csproj.CopyComplete
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\GermanKursach.exe
+C:\Users\juli1\OneDrive\Рабочий стол\GermanKursach\GermanKursach\obj\Debug\GermanKursach.pdb

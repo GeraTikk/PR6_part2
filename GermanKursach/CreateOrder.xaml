@@ -1,0 +1,153 @@
+﻿<Window x:Class="GermanKursach.CreateOrder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:GermanKursach"
+        mc:Ignorable="d"
+        Title="Создание заказа" Height="600" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style x:Key="InputFieldStyle" TargetType="Control">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#ddd"/>
+            <Setter Property="Background" Value="#f9f9f9"/>
+            <Setter Property="Margin" Value="0,0,0,15"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+
+        <Style x:Key="TextBoxStyle" TargetType="TextBox" BasedOn="{StaticResource InputFieldStyle}">
+            <Style.Triggers>
+                <Trigger Property="IsKeyboardFocused" Value="True">
+                    <Setter Property="BorderBrush" Value="#4285F4"/>
+                    <Setter Property="Background" Value="White"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="ComboBoxStyle" TargetType="ComboBox" BasedOn="{StaticResource InputFieldStyle}">
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+
+        <Style x:Key="DatePickerStyle" TargetType="DatePicker" BasedOn="{StaticResource InputFieldStyle}">
+            <Setter Property="SelectedDateFormat" Value="Short"/>
+        </Style>
+
+        <Style x:Key="TimePickerStyle" TargetType="ComboBox" BasedOn="{StaticResource ComboBoxStyle}">
+            <Setter Property="SelectedIndex" Value="0"/>
+        </Style>
+
+        <Style x:Key="PrimaryButtonStyle" TargetType="Button">
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Background" Value="#4285F4"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Margin" Value="0,10,0,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" Background="{TemplateBinding Background}" CornerRadius="3">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#3367d6"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#2a56b7"/>
+                                <Setter TargetName="border" Property="RenderTransform">
+                                    <Setter.Value>
+                                        <ScaleTransform ScaleX="0.98" ScaleY="0.98"/>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter TargetName="border" Property="RenderTransformOrigin" Value="0.5,0.5"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="White">
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Margin="20">
+                <TextBlock Text="Создание нового заказа" 
+                           FontSize="20" 
+                           FontWeight="Bold" 
+                           Margin="0,0,0,20"/>
+
+                <TextBlock Text="Клиент" Foreground="#555"/>
+                <TextBox Style="{StaticResource TextBoxStyle}" 
+                         Text="Иванов Иван Иванович" IsReadOnly="True"/>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Дата записи" Grid.Row="0" Grid.Column="0" Foreground="#555"/>
+                    <DatePicker x:Name="AppointmentDatePicker" Grid.Row="1" Grid.Column="0"
+                                Style="{StaticResource DatePickerStyle}"
+                                SelectedDate="{x:Static sys:DateTime.Today}"/>
+
+                    <TextBlock Text="Время записи" Grid.Row="0" Grid.Column="2" Foreground="#555"/>
+                    <ComboBox x:Name="AppointmentTimeComboBox" Grid.Row="1" Grid.Column="2"
+                              Style="{StaticResource TimePickerStyle}">
+                        <ComboBoxItem Content="09:00"/>
+                        <ComboBoxItem Content="10:00"/>
+                        <ComboBoxItem Content="11:00"/>
+                        <ComboBoxItem Content="12:00"/>
+                        <ComboBoxItem Content="13:00"/>
+                        <ComboBoxItem Content="14:00"/>
+                        <ComboBoxItem Content="15:00"/>
+                        <ComboBoxItem Content="16:00"/>
+                        <ComboBoxItem Content="17:00"/>
+                        <ComboBoxItem Content="18:00"/>
+                    </ComboBox>
+                </Grid>
+
+                <TextBlock Text="Услуга" Foreground="#555" Margin="0,15,0,0"/>
+                <ComboBox x:Name="ServiceComboBox" 
+                          Style="{StaticResource ComboBoxStyle}"
+                          DisplayMemberPath="Name"/>
+
+                <TextBlock Text="Мастер" Foreground="#555" Margin="0,15,0,0"/>
+                <ComboBox x:Name="MasterComboBox" 
+                          Style="{StaticResource ComboBoxStyle}"
+                          DisplayMemberPath="Name"/>
+
+                <TextBlock Text="Комментарий" Foreground="#555" Margin="0,15,0,0"/>
+                <TextBox Style="{StaticResource TextBoxStyle}" 
+                         AcceptsReturn="True" 
+                         Height="80" 
+                         VerticalScrollBarVisibility="Auto"/>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+                    <Button Content="Отмена" 
+                            Width="120"
+                            Style="{StaticResource PrimaryButtonStyle}"
+                            Background="#6c757d"
+                            Click="CancelButton_Click" Margin="0,10,10,0"/>
+                    <Button Content="Создать заказ" 
+                            Width="150" 
+                            Style="{StaticResource PrimaryButtonStyle}"
+                            Click="CreateOrderButton_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
